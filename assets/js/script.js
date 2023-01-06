@@ -69,7 +69,7 @@ function enmascarar() {
     document.getElementById("svgnumber").innerHTML = digitosTC;
 }
 
-document.getElementById("btn-validar").addEventListener("click", function() {
+document.getElementById("btn-validar").addEventListener("click", function () {
     let valida = validarTarjeta();
     if (valida) {
         enmascarar();
